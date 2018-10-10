@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  
+   <siteMapNode url="Default.aspx" title="Home"  description="Home_Page" >
+     <siteMapNode url="Login.aspx" title="Login Page"  description="Login_Page" />
+     <siteMapNode url="SignUp.aspx" title="Signup Page"  description="Signup_Page" />
+      <siteMapNode url="Account.aspx" title="Account Page"  description="Account_Page" />
+     
+     <siteMapNode url="~/Board.aspx" title="Current Board"  description="Board_Page" >
+      <siteMapNode url="Add_Thread.aspx" title="New Thread"  description="Thread_Add_Page" />
+      <siteMapNode url="Thread_Page.aspx" title="Thread"  description="Thread_Page" />
+     </siteMapNode>
+    </siteMapNode>
+  
+</siteMap>

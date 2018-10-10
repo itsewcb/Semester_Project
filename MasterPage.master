@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <title>Semester_Project</title>
+    <link rel="shortcut icon" href="my_favicon.ico" type="image/x-icon" />  
+</head>
+<body>
+    <h1 id="Heading" >    
+        <asp:HyperLink Class="titleLink" href="Default.aspx" ID="HyperLinkHome" runat="server">
+           Evans Forum - [Insert Title Here] 
+        </asp:HyperLink> 
+    </h1>
+    <div class= "BreadCrumbs" id ="BreadCrumbs">
+         <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+         <asp:SiteMapPath ID="SiteMapPath1" runat="server" PathSeparator=" | "></asp:SiteMapPath>
+    </div>
+    
+    
+    <div id ="logins">
+        <asp:ContentPlaceHolder id="head" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+ 
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    
+</body>
+</html>

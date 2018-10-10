@@ -1,0 +1,220 @@
+﻿@import url('StyleSheet.css');
+body {
+    font-size: 120%;
+    background-color: #ddf4fc;
+    font-family: "Arial", Times, Sans-serif;
+}
+
+/*Master Page*/
+#Heading {
+    background-color: #0080ff;
+    color: white;
+    margin: 0px auto;
+    margin-left: -8px;
+    margin-top: -8px;
+    margin-right: -8px;
+    padding: 10px;
+}
+#BreadCrumbs {
+    background-color: #bbcad9;
+    border-style: solid;
+    border-color: #7a99b7;
+    border-width: 2px;
+}
+
+/*Homepage (Default.aspx)*/
+#Home_Menu {
+    margin: 0px auto;
+    margin-top: 10px;
+    background-color: #bbcad9;
+    width: 11%;
+    border-style: solid;
+    border-color: #7a99b7;
+    border-width: 2px;
+}
+#Menu_Title {
+    background-color: #0080ff;
+    color: white;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/*Login, at the top of all pages*/
+#logins{
+    position: absolute;
+    right: 500px;
+    top: 3px;
+    color: white;
+}
+
+/*Sign up page and login page*/
+#login_signup {
+    margin: 0px auto;
+    margin-top: 10px;
+    background-color: #bbcad9;
+    height: 13%;
+    width: 11%;
+    border-style: solid;
+    border-color: #7a99b7;
+    border-width: 2px;
+}
+
+#Login_Signup_Header {
+    background-color: #0080ff;
+    color: white;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+/*Account Info*/
+#Account_Info {
+    margin: 0px auto;
+    margin-top: 10px;
+    background-color: #bbcad9;
+    height: 12%;
+    width: 11%;
+    border-style: solid;
+    border-color: #7a99b7;
+    border-width: 2px;   
+}
+#Account_Header {
+    background-color: #0080ff;
+    color: white;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.account_page {
+    margin: 0px auto;
+    font-weight: bold;
+}
+#tboxCurrentPW{
+    margin-bottom: 5px;
+}
+
+/*Add Thread*/
+#Thread_Start {
+    margin: 0px auto;
+    margin-top: 10px;
+    background-color: #bbcad9;
+    height: 12%;
+    width: 11%;
+    border-style: solid;
+    border-color: #7a99b7;
+    border-width: 2px;
+}
+#Seperator{
+    margin: 1px;
+}
+
+/*Board*/
+#Board_Top {
+    text-align: center;
+}
+#Repeater1 {
+    border: solid;
+    border-color: #D3D3D3;
+}
+#Table1 {
+    margin: 10px;
+}
+#Username {
+    color: #C71585;
+}
+#Thread_First_Comment {
+    background-color: #bbcad9;
+    padding: 10px;
+    border-right: 2px solid #a6bcd0;
+    border-bottom: 2px solid #a6bcd0;
+    border-spacing: 0px;
+}
+
+/*THREAD_PAGE*/
+#Reply_Box {
+    width: 8%;
+    margin: 0px auto;
+}
+#Thread_Title {
+    font-weight: bold;
+}
+#Comment_Title {
+    background-color: #D3D3D3;
+}
+
+
+/*Link styling and stuff*/
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/*View thread Button*/
+a.ViewLink:link {
+    color: black;
+    text-decoration: none;
+}
+a.ViewLink:visited {
+    color: black;
+}
+a.ViewLink:hover {
+    text-decoration: underline;
+}
+
+/*Title*/
+a.titleLink:hover {
+    text-decoration: none;
+}
+
+/*Create Thread Button*/
+a.Create_Thread:link {
+    color: black;
+    text-decoration: none;
+}
+a.Create_Thread:visited {
+    color: black;
+    text-decoration: none;
+}
+a.Create_Thread:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/*Return Button*/
+a.Return:link {
+    color: black;
+    text-decoration: none;
+}
+
+a.Return:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a.Return:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/*Delete Button*/
+a.Delete:link {
+    color: red;
+    text-decoration: none;
+}
+
+a.Delete:visited {
+    color: red;
+    text-decoration: none;
+}
+
+a.Delete:hover {
+    color: red;
+    text-decoration: underline;
+}
